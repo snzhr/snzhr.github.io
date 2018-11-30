@@ -1172,6 +1172,7 @@ li.sale-noti > a {
 /* ------------------------------------ */
 .logo2 {
   display: block;  
+  margin-left: 0 !important;
 }
 
 .logo2 img {
