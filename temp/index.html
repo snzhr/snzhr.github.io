@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Turntable.js : A Responsive JQuery Slider</title>
+
+  <meta property="og:title" content="Turntable.js : A Responsive JQuery Slider" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://polarnotion.github.io/turntable/" />
+  <meta property="og:image" content="" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Turntable.js</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#install">Install</a>
+        </li>
+        <a href="https://s3.amazonaws.com/turntable-slider/TurntableSlider.zip" class="btn btn-white-outline navbar-btn">Download</a>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <header class="pad-section position-9">
+    <div class="container">
+        
+      <div class="header-overlay turntable" id="turntable">
+        <ul>
+          <li data-img-src="images/new/1.png"></li>
+          <li data-img-src="images/new/2.png"></li>
+          <li data-img-src="images/new/3.png"></li>
+          <li data-img-src="images/new/4.png"></li>
+          <li data-img-src="images/new/5.png"></li>
+          <li data-img-src="images/new/6.png"></li>
+          <li data-img-src="images/new/7.png"></li>
+          <li data-img-src="images/new/8.png"></li>
+          <li data-img-src="images/new/9.png"></li>
+          <li data-img-src="images/new/10.png"></li>
+          <li data-img-src="images/new/11.png"></li>
+          <li data-img-src="images/new/12.png"></li>
+          <li data-img-src="images/new/13.png"></li>
+          <li data-img-src="images/new/1.png"></li>
+         
+        </ul>
+     
+      </div>
+    </div>
+  </header>
+
+
+
+ 
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript">
+    $('#turntable').turntable({axis: 'x'});
+  </script>
+
+</body>
+</html>
