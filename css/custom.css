@@ -60,6 +60,22 @@ font-size: 15px;
 	border: 1px solid #008000;
 	border-radius: 20px;
 }
+
+.hov-img-zoom {
+	height: 450px;
+}
+.hov-img-zoom img{
+	max-width: 80%;	
+	margin-left: 10%
+}
+@media (max-width: 576px) {
+.hov-img-zoom {
+	height: 320px;
+}
+}
+
+
+
 @media (max-width: 576px) {
 #map{
 	width: 100%;
@@ -73,4 +89,85 @@ font-size: 15px;
 	width: 100%;
 	height: 450px;	
 }	
+}
+
+
+
+/* 3d model */
+.model{
+	margin: 10px 0 10px 0;
+}
+.model h3{
+	text-align: center;
+}
+
+.left-side{
+	width: 50%;
+	display: inline-block;
+
+}
+.right-side{
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+.left-side img{
+	max-width: 100%;
+}
+.right-side img{
+	max-width: 100%;
+}
+
+
+
+
+.sertificate-text{
+	width: 40%;
+	display: inline-block;
+	margin-top: 10%;
+}
+.sertificate-text p {
+	max-width: 100%;
+	display: block;
+}
+
+
+.sertificate{
+	width: 60%;
+	display: inline-block;
+	float: right;
+	
+}
+
+.sertificate img{
+	max-width: 100%;
+}
+
+
+
+
+@media (max-width: 576px) {
+.sertificate img{
+	max-width: 100%;
+}
+.sertificate-text{
+	width: 100%;
+	display: inline-block;
+	margin-top: 10%;
+}
+.sertificate-text p {
+	max-width: 100%;
+	display: block;
+}
+
+
+.sertificate{
+	width: 100%;
+	display: inline-block;
+}
+.model2{
+	height: auto !important;
+}
+
+	
 }

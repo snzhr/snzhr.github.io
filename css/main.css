@@ -1364,7 +1364,7 @@ li.sale-noti > a {
 
 .item-slick1 {
   height: 400px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1452,6 +1452,7 @@ li.sale-noti > a {
 
   .item-slick1 {
     height: 470px;
+    background-size: contain;
   }
 }
 
@@ -1468,7 +1469,10 @@ li.sale-noti > a {
   }
 
   .item-slick1 {
-    height:200px;
+    height:100px;
+    background-color: red;
+    background-size: cover;
+    
     
   }
 
